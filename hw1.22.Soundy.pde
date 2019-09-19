@@ -19,7 +19,8 @@ gui();
 }
 
 public void draw(){
-background(51);
+img = loadImage("panel.jpg");
+background(img);
 if (go){
   x = cf;
   n = 0;
